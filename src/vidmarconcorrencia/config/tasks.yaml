@@ -1,0 +1,161 @@
+price_analysis:
+  description: >
+    Realizar uma análise detalhada das estratégias de precificação dos concorrentes 
+    para identificar oportunidades de ajuste e posicionamento estratégico da empresa do site {site_url}. 
+    A tarefa envolve coletar informações sobre preços praticados pelos concorrentes, 
+    incluindo valores padrão, descontos, pacotes promocionais e variações entre 
+    diferentes canais de venda. O agente deve observar como os concorrentes definem 
+    preços para produtos e serviços, identificando estratégias de precificação 
+    dinâmica e táticas sazonais. A análise deve incluir também uma investigação 
+    sobre como o preço impacta a percepção de valor entre os consumidores e a 
+    competitividade da marca. Ao final, o agente deve fornecer uma visão completa 
+    sobre o cenário de preços no setor, com recomendações de ajustes de preços 
+    para fortalecer a posição da empresa no mercado, levando em consideração 
+    fatores como elasticidade de preço e sensibilidade do consumidor.
+  expected_output: >
+    Um relatório estratégico contendo uma análise detalhada dos preços praticados 
+    pelos principais concorrentes da empresa do site {site_url}. O relatório deve incluir uma tabela comparativa 
+    de preços, com uma avaliação de vantagens e desvantagens das estratégias de 
+    precificação dos concorrentes . A seção de recomendações deve sugerir ajustes 
+    específicos de preços para a empresa, com justificativas baseadas nas informações 
+    coletadas. Além disso, o relatório deve apresentar uma análise sobre a elasticidade 
+    de preço e a percepção de valor associada a diferentes níveis de preço. O relatório 
+    deve fornecer uma visão estratégica que ajude a empresa a ajustar sua política de 
+    preços e a maximizar tanto a competitividade quanto a lucratividade no mercado 
+    atual, levando em conta o contexto econômico e a demanda do consumidor.
+    A saída deve ser em Markdown. É muito importante que o texto não contenha coisas 
+    como "‘‘‘ markdown " e "'''". """ ,
+  agent: price_agent
+
+product_analysis:
+  description: >
+    Realizar uma análise abrangente dos produtos oferecidos pelos concorrentes, 
+    comparando-os com os produtos da empresa do site {site_url}. A tarefa inclui a coleta de informações 
+    sobre a qualidade, funcionalidades, benefícios e diferenciais dos produtos dos 
+    concorrentes. O agente deve observar aspectos como durabilidade, inovação, 
+    design e valor percebido pelos consumidores, avaliando quais características 
+    tornam os produtos dos concorrentes atraentes para o público-alvo. Além disso, 
+    o agente deve identificar lacunas no mercado que possam ser exploradas pela 
+    empresa para se diferenciar e atender a demandas específicas dos consumidores. 
+    A análise ajudará a empresa a identificar oportunidades de inovação e aprimoramento 
+    de seus produtos, permitindo uma adaptação eficiente às expectativas do cliente.
+  expected_output: >
+    Um relatório de análise de produto contendo uma comparação detalhada entre os 
+    produtos da empresa do site {site_url} e os produtos oferecidos pelos concorrentes. O relatório 
+    deve destacar os pontos fortes e fracos dos produtos dos concorrentes em relação 
+    aos da empresa, com uma lista das funcionalidades e benefícios exclusivos. A 
+    seção de recomendações deve incluir sugestões de melhoria e inovação para os 
+    produtos da empresa, com base nas lacunas identificadas e nas tendências de 
+    preferência do consumidor. O relatório deve fornecer uma visão estratégica sobre 
+    o que torna os produtos da empresa competitivos e como a empresa pode 
+    diferenciar-se no mercado com inovações de produto, focando nas expectativas 
+    dos clientes e nas oportunidades de crescimento no setor.
+    A saída deve ser em Markdown. É muito importante que o texto não contenha coisas 
+    como "‘‘‘ markdown " e "'''". """ ,
+  agent: product_agent
+
+
+marketing_analysis:
+  description: >
+    Conduzir uma análise profunda das estratégias de marketing dos concorrentes, 
+    observando sua presença digital e suas campanhas de engajamento. A tarefa 
+    envolve examinar a atuação dos concorrentes em redes sociais, SEO, anúncios 
+    pagos, e-mail marketing e marketing de conteúdo, identificando as plataformas 
+    e abordagens mais eficazes. O agente deve avaliar o tom da comunicação, a 
+    linguagem e as mensagens-chave que mais ressoam com o público-alvo, além de 
+    investigar as taxas de engajamento da empresa do site {site_url}. A análise deve incluir uma avaliação das 
+    campanhas que geram maior retorno e de como os concorrentes se diferenciam na 
+    comunicação de marca. Com base nesses dados, o agente deve fornecer insights 
+    para fortalecer a presença digital da empresa e melhorar seu reconhecimento no 
+    mercado.
+  expected_output: >
+    Um relatório detalhado com a análise das campanhas de marketing digital dos 
+    concorrentes, incluindo uma comparação entre as principais estratégias e 
+    plataformas utilizadas. O relatório deve apresentar os pontos fortes e fracos 
+    das abordagens de marketing dos concorrentes, destacando as táticas de engajamento 
+    de maior sucesso. A seção de recomendações deve incluir sugestões para otimizar 
+    as estratégias de marketing da empresa do site {site_url}, com base em práticas que mostram maior 
+    engajamento e impacto positivo. Além disso, o relatório deve abordar a importância 
+    de um tom e linguagem consistentes para criar uma conexão emocional com o público. 
+    Este relatório ajudará a empresa a alinhar suas estratégias de marketing com 
+    as tendências do setor e a fortalecer sua presença digital.
+    A saída deve ser em Markdown. É muito importante que o texto não contenha coisas 
+    como "‘‘‘ markdown " e "'''". """ ,
+  agent: marketing_agent
+
+
+customer_satisfaction_analysis:
+  description: >
+    Realizar uma análise abrangente da satisfação dos clientes da empresa do site {site_url} em relação aos produtos 
+    e serviços oferecidos pelos concorrentes. A tarefa envolve coletar feedback dos 
+    consumidores nas redes sociais, sites de avaliação, fóruns e outras plataformas 
+    onde os clientes compartilham suas experiências. O agente deve identificar as 
+    principais reclamações e elogios dos consumidores sobre os produtos concorrentes, 
+    destacando os fatores que contribuem para a satisfação ou insatisfação. A análise 
+    deve incluir uma avaliação das áreas em que os concorrentes se destacam no atendimento 
+    ao cliente e das áreas que precisam de melhorias. Esses insights ajudarão a empresa 
+    a ajustar seus produtos e serviços para melhor atender às expectativas do público-alvo.
+  expected_output: >
+    Um relatório de análise de satisfação do cliente que resume os pontos positivos 
+    e negativos destacados pelos consumidores da empresa do site {site_url} em relação aos concorrentes. O relatório 
+    deve incluir uma lista das principais reclamações e elogios, com explicações detalhadas 
+    sobre o impacto desses fatores na percepção dos clientes. A seção de recomendações 
+    deve propor melhorias nos produtos e serviços da empresa para atender melhor às 
+    expectativas dos consumidores e resolver os principais pontos de insatisfação 
+    observados. Além disso, o relatório deve sugerir estratégias de comunicação para 
+    reforçar os aspectos positivos e criar uma imagem de marca confiável e respeitada 
+    no mercado.
+    A saída deve ser em Markdown. É muito importante que o texto não contenha coisas 
+    como "‘‘‘ markdown " e "'''". """ ,
+  agent: customer_satisfaction_agent
+
+
+technology_analysis:
+  description: >
+    Realizar uma análise detalhada das tecnologias e inovações adotadas pelos 
+    concorrentes, identificando oportunidades e ameaças para a empresa. A tarefa 
+    envolve investigar tecnologias emergentes e ferramentas que os concorrentes 
+    utilizam para otimizar suas operações e oferecer produtos ou serviços diferenciados. 
+    O agente deve observar quais inovações tecnológicas estão impactando o setor e 
+    como elas podem representar uma vantagem competitiva. A análise deve incluir uma 
+    avaliação de como essas tecnologias podem ser integradas às operações da empresa do site {site_url}, 
+    garantindo que ela permaneça competitiva e preparada para mudanças tecnológicas.
+  expected_output: >
+    Um relatório de análise tecnológica que apresenta as principais inovações e 
+    tecnologias utilizadas pelos concorrentes, com uma avaliação de seu impacto 
+    potencial no setor. O relatório deve incluir exemplos de tecnologias que estão 
+    transformando a competitividade dos concorrentes e uma análise sobre a viabilidade 
+    de implementação dessas tecnologias na empresa do site {site_url}. A seção de recomendações deve 
+    propor estratégias para adotar inovações tecnológicas que possam otimizar as 
+    operações e criar valor para o cliente. Esse relatório ajudará a empresa a 
+    manter-se à frente em inovação, utilizando a tecnologia como um diferencial 
+    competitivo no mercado atual.
+    A saída deve ser em Markdown. É muito importante que o texto não contenha coisas 
+    como "‘‘‘ markdown " e "'''". """ ,
+  agent: technology_agent
+
+
+sustainability_analysis:
+  description: >
+    Realizar uma análise das práticas de sustentabilidade dos concorrentes, 
+    avaliando como eles integram práticas ecológicas e sustentáveis em suas operações. 
+    A tarefa envolve examinar o uso de materiais ecológicos, eficiência energética, 
+    reciclagem e políticas de responsabilidade ambiental adotadas pelos concorrentes. 
+    O agente deve identificar as áreas em que os concorrentes estão promovendo práticas 
+    verdes e aquelas em que há espaço para melhorias. A análise deve incluir sugestões 
+    sobre como a empresa do site {site_url} pode aprimorar suas próprias práticas de sustentabilidade para 
+    promover uma imagem de responsabilidade social e atender às expectativas de um 
+    mercado cada vez mais consciente sobre o impacto ambiental.
+  expected_output: >
+    Um relatório de sustentabilidade que apresenta uma análise detalhada das práticas 
+    ecológicas dos concorrentes, com uma comparação das principais iniciativas e dos 
+    resultados obtidos. O relatório deve incluir uma lista das práticas de sustentabilidade 
+    mais eficazes adotadas no setor, além de sugestões sobre como a empresa do site {site_url} pode melhorar 
+    seu desempenho ambiental. A seção de recomendações deve abordar possíveis iniciativas 
+    para reduzir a pegada de carbono, melhorar a eficiência energética e promover o uso 
+    de materiais sustentáveis. Esse relatório ajudará a empresa a fortalecer sua imagem 
+    como uma marca responsável e a ganhar a confiança de consumidores preocupados com o 
+    meio ambiente.
+    A saída deve ser em Markdown. É muito importante que o texto não contenha coisas 
+    como "‘‘‘ markdown " e "'''". """ ,
+  agent: sustainability_agent

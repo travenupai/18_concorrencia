@@ -1,0 +1,12 @@
+.env
+__pycache__/
+.venv
+uv.lock
+/.venv/
+my_llm.py
+customer_satisfaction_report.md
+marketing_analysis_report.md
+price_analysis_report.md
+product_analysis_report.md
+sustainability_report.md
+technology_analysis_report.md
